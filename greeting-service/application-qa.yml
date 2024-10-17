@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-service
+# noinspection undefined
+greeting-service:
+  greeting: "Ola mundo"
+  default-value: "Tu é burro"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+
