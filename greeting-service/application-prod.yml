@@ -3,7 +3,7 @@ spring:
     name: greeting-service
 # noinspection undefined
 greeting-service:
-  greeting: "Application QA YML"
+  greeting: "Application de producao parceiro"
   default-value: "Tu é burro"
 management:
   endpoints:
